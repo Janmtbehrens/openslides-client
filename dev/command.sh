@@ -1,3 +1,3 @@
 #!/bin/sh
 
-if [ ! -z "$dev" ]; then npm start; fi
+if [ -n "$dev" ]; then npm start; fi
